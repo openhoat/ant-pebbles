@@ -2,7 +2,7 @@
 
 A JS simulation of ant behavior and pebbles in the browser powered by [PixiJS](http://www.pixijs.com/).
 
-![Screencast](https://raw.githubusercontent.com/openhoat/ant-pebbles/master/assets/images/ant-pebbles-screencast.png)
+![Screencast](https://raw.githubusercontent.com/openhoat/ant-pebbles/master/assets/images/ant-pebbles-screencast.gif)
 
 ## Installation
 
