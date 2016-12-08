@@ -21,6 +21,8 @@ $ yarn
 
 Simply open index.html into your browser
 
+[Online demo](http://openhoat.github.io/ant-pebbles/)
+
 ## Rules of the game
 
 - Pebbles, stones and rocks are placed randomly into the sand background game scene, the number of pebbles is set in config.js (default: 200)
