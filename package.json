@@ -1,13 +1,21 @@
 {
   "name": "ant-pebbles",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simulation of ant behavior and pebbles in the browser",
+  "main": "app.js",
+  "private": true,
   "scripts": {
     "lint": "eslint ."
   },
   "author": "Olivier Penhoat <openhoat@gmail.com> (http://headwood.net/)",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:openhoat/ant-pebbles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openhoat/ant-pebbles/issues"
+  },
   "dependencies": {
     "lodash": "^4.17.2",
     "pixi.js": "^4.2.3",
