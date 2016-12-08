@@ -1,6 +1,8 @@
 # Ant pebbles
 
-A JS simulation of ant behavior and pebbles in the browser
+A JS simulation of ant behavior and pebbles in the browser powered by [PixiJS](http://www.pixijs.com/).
+
+![Screencast](https://raw.githubusercontent.com/openhoat/ant-pebbles/master/assets/images/ant-pebbles-screencast.png)
 
 ## Installation
 
@@ -17,7 +19,7 @@ $ yarn
 
 ## Usage
 
-Just open index.html into your browser
+Simply open index.html into your browser
 
 ## Game rules
 
