@@ -21,7 +21,7 @@ $ yarn
 
 Simply open index.html into your browser
 
-## Game rules
+## Rules of the game
 
 - Pebbles, stones and rocks are placed randomly into the sand background game scene, the number of pebbles is set in config.js (default: 200)
 - An ant is also placed randomly : the initial number of ants is set in config.js, and you can change it in live with up and down arrow keys
