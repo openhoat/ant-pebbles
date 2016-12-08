@@ -5,6 +5,7 @@
   "main": "app.js",
   "private": true,
   "scripts": {
+    "build": "node_modules/.bin/r.js -o app.build.js",
     "lint": "eslint ."
   },
   "author": "Olivier Penhoat <openhoat@gmail.com> (http://headwood.net/)",
@@ -22,6 +23,7 @@
     "requirejs": "^2.3.2"
   },
   "devDependencies": {
+    "almond": "^0.3.3",
     "eslint": "^3.11.1",
     "eslint-plugin-requirejs": "^3.1.0"
   }
