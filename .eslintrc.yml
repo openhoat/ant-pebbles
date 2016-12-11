@@ -1,12 +1,13 @@
 env:
   browser: true
   es6: true
+  node: true
   mocha: true
-plugins:
-  - requirejs
 extends:
   - eslint:recommended
-  - plugin:requirejs/recommended
+parserOptions:
+  ecmaVersion: 6
+  sourceType: module
 rules:
   indent:
     - error
@@ -22,8 +23,15 @@ rules:
     - avoidEscape: true
       allowTemplateLiterals: true
   semi:
-    - error
-    - always
+    - warn
+    - never
+  comma-dangle:
+    - warn
+    - arrays: ignore
+      objects: ignore
+      imports: never
+      exports: never
+      functions: ignore
   no-var: warn
   object-shorthand: warn
   prefer-arrow-callback: warn
