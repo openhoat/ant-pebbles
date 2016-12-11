@@ -9,21 +9,11 @@ module.exports = {
     publicPath: '/build/',
   },
   module: {
-    loaders: [
-      {
-        test: /\.png$/,
-        loader: 'url-loader?limit=100000',
-      },
-      {
-        test: /\.jpg$/,
-        loader: 'file-loader',
-      },
-      {
-        test: /\.js$/,
-        loader: 'babel',
-        exclude: /node_modules/,
-      },
-    ],
+    loaders: [{
+      test: /\.js$/,
+      loader: 'babel',
+      exclude: /node_modules/,
+    }],
   },
   vue: {
     loaders: {
@@ -33,6 +23,6 @@ module.exports = {
   plugins: [
     new webpack.ProvidePlugin({_: 'lodash'}),
   ],
-  devtool: '#inline-source-map',
-  devServer: {inline: true},
+  //devtool: '#inline-source-map',
+  //devServer: {inline: true},
 }
